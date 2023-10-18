@@ -1,0 +1,52 @@
+
+body{
+    font-family: sans-serif;
+}
+/* main container */
+.section1{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    align-items: center;
+    background-size: cover;
+    background-image: url(bcdg2.jpg);
+    background-repeat: no-repeat;
+    padding: 30px 0 0 40px; ;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+/* img part of container */
+.section1 img{
+        width: 100%;
+}
+/* button section */
+.section1 button{
+    border-radius:10px 10px 10px 10px ;
+    font-size: 20px;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+#box{
+    width: 300px;
+    max-height: 350px;
+    
+    
+}
+/* #box:hover
+{
+    transform: scale(1.2);
+    transition: transform 0.8s;
+} */
+#p{
+text-align: justify;
+}
+@media (max-width:1116px){
+    .section1{
+        height: auto;
+    }
+}
+
+
