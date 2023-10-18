@@ -1,0 +1,76 @@
+
+body{
+    /* the font-family property is used to specify
+     the font for an HTML element's text content. 
+    It allows web developers to define a prioritized
+    list of font family names or generic family names
+    for the text within an element. */
+    font-family: sans-serif;
+}
+/* main container */
+.section1{
+    width: auto;
+    height: 100vh;
+    /* dispaly flex */
+    /*  display: flex; to a container element, it allows you to 
+    easily distribute space and align items within that container,
+     both horizontally and vertically. */
+     /* All following properties are from flex box */
+    display: flex; 
+    justify-content: center;
+    margin-top: 35px;    
+    align-items: center;
+    background-size: cover;
+    background-image: url(bcdg2.jpg);
+    background-repeat: no-repeat;
+    padding: 30px 0 0 40px; ;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+/* img part of container */
+.section1 img{
+        width: 100%;
+        /* In web development, the <img> element 
+        is used in HTML to embed images directly 
+        into a webpage. HTML (Hypertext Markup Language)
+        is the standard language used to create web pages,
+        and it includes specific elements like <img> for 
+        displaying images, <p> for paragraphs, */
+}
+/* button section */
+.section1 button{
+    border-radius:10px 10px 10px 10px ;
+    font-size: 20px;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+#box{
+    width: 300px;
+    max-height: 350px;
+    
+    
+}
+/* #box:hover
+{
+    transform: scale(1.2);
+    transition: transform 0.8s;
+} */
+#p{
+text-align: justify;
+}
+@media (max-width:1116px){
+    .section1{
+        height: auto;
+    }
+}
+}
+@media (max-width:5296px){
+    .section1{
+        height: auto;
+    }
+}
+
+
+
+
